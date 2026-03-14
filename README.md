@@ -1,42 +1,53 @@
 # AI Surveillance Dashboard
 
-A **real time computer vision dashboard** built with Python that performs **face detection, emotion recognition, and color-based object detection** using a webcam.
+A simple **AI powered camera dashboard** built with Python.
+It uses computer vision to detect **faces, emotions, and red objects** in real time from your webcam.
 
-This project demonstrates how **OpenCV and deep learning models** can be combined to build a simple intelligent monitoring system capable of analyzing live camera input.
-
----
-
-## Features
-
-* Real-time webcam video processing
-* Face detection using **Haar Cascades (OpenCV)**
-* Emotion recognition using **DeepFace**
-* Red object detection using **HSV color segmentation**
-* Live AI dashboard overlay
-* Automatic logging of frames
-* Emotion statistics saved to a file
+This project shows how basic **AI + computer vision** can be used to analyze live video and display useful information on screen.
 
 ---
 
-## Tech Stack
+## What This Project Does
 
-* Python
-* OpenCV
-* NumPy
-* DeepFace
+When you run the program, it opens your webcam and creates a **live AI dashboard**.
+
+The system can:
+
+* Detect **human faces**
+* Recognize **basic emotions** (happy, sad, angry, etc.)
+* Detect **red colored objects**
+* Display everything in a **real-time dashboard**
+* Save **frames and logs automatically**
+
+This makes it a small example of how AI can be used in **surveillance, monitoring, or smart camera systems**.
 
 ---
 
-## Installation
+## Technologies Used
 
-### 1. Clone the repository
+This project is built using:
+
+* **Python** – main programming language
+* **OpenCV** – for camera access and computer vision
+* **NumPy** – for numerical operations
+* **DeepFace** – for emotion detection using deep learning
+
+---
+
+## How to Install
+
+### 1. Clone the Repository
+
+Open your terminal and run:
 
 ```bash
 git clone https://github.com/vyanmadai7/ai-surveillance-dashboard.git
 cd ai-surveillance-dashboard
 ```
 
-### 2. Install dependencies
+---
+
+### 2. Install Required Libraries
 
 ```bash
 pip install opencv-python numpy deepface
@@ -44,13 +55,17 @@ pip install opencv-python numpy deepface
 
 ---
 
-## Run the Project
+## How to Run the Project
+
+Start the program with:
 
 ```bash
-python main.py
+python python.py
 ```
 
-Press **Q** to close the dashboard.
+Your webcam will open and the **AI dashboard will start running**.
+
+Press **Q** on your keyboard to close the program.
 
 ---
 
@@ -59,58 +74,56 @@ Press **Q** to close the dashboard.
 ```
 ai-surveillance-dashboard
 │
-├── main.py
-├── logs
+├── python.py         
+├── logs/           
 │   ├── stats.txt
-│   └── saved_frames
+│   └── frame_images
 │
-├── requirements.txt
 └── README.md
 ```
 
 ---
 
-## How It Works
+## How the System Works
 
-1. The webcam captures live video frames.
-2. OpenCV detects faces using Haar Cascade classifiers.
-3. Each detected face is analyzed using **DeepFace** to determine the dominant emotion.
-4. The system detects **red-colored objects** using HSV color masks.
-5. All results are displayed in a **live AI dashboard overlay**.
-6. Frames and statistics are saved automatically in the **logs** folder.
+1. The webcam captures video frames in real time.
+2. OpenCV scans each frame to detect **faces**.
+3. Each detected face is sent to **DeepFace**, which predicts the **dominant emotion**.
+4. The program also detects **red colored objects** using HSV color filtering.
+5. The results are drawn on the screen as a **live dashboard overlay**.
+6. Frames and detection data are saved inside the **logs folder**.
 
 ---
 
 ## Example Output
 
-The dashboard displays:
+The dashboard shows:
 
-* Number of detected faces
-* Detected emotions
-* Highlighted faces
-* Detected red objects
+* Number of faces detected
+* Emotion of each detected face
+* Highlighted red objects
 * Real-time camera feed
-
-Frames and logs are automatically stored with timestamps.
+* Automatically saved logs
 
 ---
 
-## Future Improvements
+## Possible Future Improvements
 
-Possible upgrades for this project:
+This project can be expanded further, for example:
 
-* YOLOv8 object detection
-* Age and gender prediction
-* Face recognition authentication system
-* Web dashboard using FastAPI
-* Cloud logging and analytics
+* Real **object detection with YOLO**
+* **Age and gender detection**
+* **Face recognition login system**
+* A **web dashboard using FastAPI**
+* Cloud storage for logs
 
 ---
 
 ## Author
 
 **Vyan**
-AI / ML Learner | Self taught Developer
+
+Self-taught programmer interested in **AI, machine learning, and building real-world projects**.
 
 GitHub:
 https://github.com/vyanmadai7
