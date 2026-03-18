@@ -19,7 +19,7 @@ The system can:--
 * Display everything in a **real-time dashboard**
 * Save **frames and logs automatically**
 
-This makes it a small example of how AI can be used in **surveillance, monitoring, or smart camera systems**.
+This makes it a small example of how AI can be used in **surveillance, monitoring, or smart camera systems**....
 
 ---
 
