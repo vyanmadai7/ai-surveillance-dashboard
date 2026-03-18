@@ -1,6 +1,6 @@
 # AI Surveillance Dashboard
 
-A simple **AI powered camera dashboard** built with Python.
+A simple **AI powered camera dashboard** built with Python....
 It uses computer vision to detect **faces, emotions, and red objects** in real time from your webcam.
 
 This project shows how basic **AI + computer vision** can be used to analyze live video and display useful information on screen.
