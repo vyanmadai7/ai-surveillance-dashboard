@@ -9,7 +9,7 @@ This project shows how basic **AI + computer vision** can be used to analyze liv
 
 ## What This Project Does
 
-When you run the program, it opens your webcam and creates a **live AI dashboard**.
+When you run the program, it opens your webcam and creates a **live AI dashboard**....
 
 The system can:
 
