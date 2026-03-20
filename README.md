@@ -21,7 +21,7 @@ The system can:--
 
 This makes it a small example of how AI can be used in **surveillance, monitoring, or smart camera systems**....
 
--------
+-----------
 
 ## Technologies Used
 
