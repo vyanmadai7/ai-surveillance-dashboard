@@ -32,7 +32,7 @@ This project is built using:
 * **NumPy** – for numerical operations
 * **DeepFace** – for emotion detection using deep learning
 
----
+-------
 
 ## How to Install
 
