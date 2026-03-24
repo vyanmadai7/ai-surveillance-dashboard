@@ -93,7 +93,7 @@ ai-surveillance-dashboard
 5. The results are drawn on the screen as a **live dashboard overlay**.
 6. Frames and detection data are saved inside the **logs folder**.
 
----
+-------
 
 ## Example Output
 
@@ -105,7 +105,7 @@ The dashboard shows:
 * Real-time camera feed
 * Automatically saved logs
 
----
+-------
 
 ## Possible Future Improvements
 
@@ -117,7 +117,7 @@ This project can be expanded further, for example:
 * A **web dashboard using FastAPI**
 * Cloud storage for logs
 
----
+-------
 
 ## Author
 
