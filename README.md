@@ -32,7 +32,7 @@ This project is built using:
 * **NumPy** – for numerical operations
 * **DeepFace** – for emotion detection using deep learning
 
------------
+---------------
 
 ## How to Install
 
@@ -45,7 +45,7 @@ git clone https://github.com/vyanmadai7/ai-surveillance-dashboard.git
 cd ai-surveillance-dashboard
 ```
 
------------
+---------------
 
 ### 2. Install Required Libraries
 
