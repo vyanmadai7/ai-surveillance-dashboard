@@ -67,7 +67,7 @@ Your webcam will open and the **AI dashboard will start running**.
 
 Press **Q** on your keyboard to close the program.
 
----------------
+-------------------
 
 ## Project Structure
 
