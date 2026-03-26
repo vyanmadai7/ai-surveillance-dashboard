@@ -53,7 +53,7 @@ cd ai-surveillance-dashboard
 pip install opencv-python numpy deepface
 ```
 
----------------
+-------------------
 
 ## How to Run the Project
 
