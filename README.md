@@ -5,7 +5,7 @@ It uses computer vision to detect **faces, emotions, and red objects** in real t
 
 This project shows how basic **AI + computer vision** can be used to analyze live video and display useful information on screen....
 
------------------
+-------------------
 
 ## What This Project Does
 
