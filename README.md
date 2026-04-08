@@ -11,7 +11,7 @@ This project shows how basic **AI + computer vision** can be used to analyze liv
 
 When you run the program, it opens your webcam and creates a **live AI dashboard**....
 
-The system can:------
+The system can:--------
 
 * Detect **human faces**
 * Recognize **basic emotions** (happy, sad, angry, etc.)
