@@ -45,7 +45,7 @@ git clone https://github.com/vyanmadai7/ai-surveillance-dashboard.git
 cd ai-surveillance-dashboard
 ```
 
------------------------
+--------------------------
 
 ### 2. Install Required Libraries
 
