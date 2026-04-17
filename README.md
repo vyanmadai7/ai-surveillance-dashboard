@@ -105,7 +105,7 @@ The dashboard shows:
 * Real-time camera feed
 * Automatically saved logs
 
----------------
+-------------------
 
 ## Possible Future Improvements
 
