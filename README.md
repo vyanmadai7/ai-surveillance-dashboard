@@ -117,4 +117,4 @@ This project can be expanded further, for example:
 * A **web dashboard using FastAPI**
 * Cloud storage for logs
 
----------------
+-------------------
