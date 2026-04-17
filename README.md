@@ -53,7 +53,7 @@ cd ai-surveillance-dashboard
 pip install opencv-python numpy deepface
 ```
 
------------------------
+---------------------------
 
 ## How to Run the Project
 
@@ -67,7 +67,7 @@ Your webcam will open and the **AI dashboard will start running**.
 
 Press **Q** on your keyboard to close the program.
 
--------------------
+---------------------------
 
 ## Project Structure
 
