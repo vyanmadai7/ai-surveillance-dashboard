@@ -82,7 +82,7 @@ ai-surveillance-dashboard
 └── README.md
 ```
 
--------------------
+-----------------------
 
 ## How the System Works
 
