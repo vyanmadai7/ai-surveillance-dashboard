@@ -8,7 +8,7 @@ import os
 if not os.path.exists("logs"):
     os.makedirs("logs")
 
-# load face detector
+# load face detector here
 face_cascade = cv2.CascadeClassifier(
     cv2.data.haarcascades + "haarcascade_frontalface_default.xml"
 )
