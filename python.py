@@ -4,7 +4,7 @@ from deepface import DeepFace
 from datetime import datetime
 import os
 
-# create log folder
+# create log folder here
 if not os.path.exists("logs"):
     os.makedirs("logs")
 
